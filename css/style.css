@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/InterMedium.woff2) format("woff2");
+  font-weight: 500;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #FFFFFF;
+}
+
+.members {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 24px;
+  max-width: 640px;
+  list-style: none;
+}
+
+.member-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 9px 15px 9px 11px;
+  border-radius: 100px;
+  border: 1px solid #E5E7EB;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+.member-item__avatar {
+  height: 32px;
+  width: 32px;
+  border-radius: 100%;
+}
